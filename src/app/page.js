@@ -24,6 +24,7 @@ function Board(){
 
   return ( <>
   <div className= "status">
+    <h>Testing auto deployment</h>
    { winner ?(
      <p>Winner is: {winner}</p>
     ) :( <p>Next Player: {xIsNext ? "X" : "O"}</p>)}
